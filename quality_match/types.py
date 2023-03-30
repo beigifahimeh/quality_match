@@ -1,7 +1,6 @@
 from enum import Enum
 from typing import Any
 
-
 def from_str(x: Any) -> str:
     assert isinstance(x, str)
     return x
